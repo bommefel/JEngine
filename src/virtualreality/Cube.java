@@ -36,13 +36,13 @@ public class Cube extends Object3D {
 	public void updateLinesFromVectorPoints() {
 		// todo via loop
 		linesToDraw.set(0, new VectorPair(objectVectors.get(0), objectVectors.get(1), Color.GRAY));
-		linesToDraw.set(1, new VectorPair(objectVectors.get(1), objectVectors.get(2), Color.GREEN));
+		linesToDraw.set(1, new VectorPair(objectVectors.get(1), objectVectors.get(2), Color.RED));
 		linesToDraw.set(2, new VectorPair(objectVectors.get(2), objectVectors.get(3), Color.BLUE));
-		linesToDraw.set(3, new VectorPair(objectVectors.get(3), objectVectors.get(0), Color.GREEN));
+		linesToDraw.set(3, new VectorPair(objectVectors.get(3), objectVectors.get(0), Color.RED));
 		linesToDraw.set(4, new VectorPair(objectVectors.get(4), objectVectors.get(5), Color.GRAY));
-		linesToDraw.set(5, new VectorPair(objectVectors.get(5), objectVectors.get(6), Color.GREEN));
+		linesToDraw.set(5, new VectorPair(objectVectors.get(5), objectVectors.get(6), Color.RED));
 		linesToDraw.set(6, new VectorPair(objectVectors.get(6), objectVectors.get(7), Color.BLUE));
-		linesToDraw.set(7, new VectorPair(objectVectors.get(7), objectVectors.get(4), Color.GREEN));
+		linesToDraw.set(7, new VectorPair(objectVectors.get(7), objectVectors.get(4), Color.RED));
 		linesToDraw.set(8, new VectorPair(objectVectors.get(0), objectVectors.get(4), Color.GRAY));
 		linesToDraw.set(9, new VectorPair(objectVectors.get(1), objectVectors.get(5), Color.GRAY));
 		linesToDraw.set(10, new VectorPair(objectVectors.get(2), objectVectors.get(6), Color.BLUE));
